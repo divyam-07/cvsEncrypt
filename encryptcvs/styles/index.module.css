@@ -1,0 +1,41 @@
+.main{
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+}
+
+.main_content p{
+ margin: 0;
+ color: white;
+}
+
+.main_content{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ padding: 24vh; 
+}
+
+.we{
+ font-size: 60px;
+ font-family: 'WC Mano Negra Bta', sans-serif;
+}
+
+.encrypt{
+ font-size: 200px;
+ font-family: 'WC Mano Negra Bta', sans-serif;
+ width: 600px;
+ height: 210px;
+}
+
+.hr {
+    border: none;
+    border-top: 1px solid #F3138D;
+    color: #F3138D;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+    width: 6%;
+}
