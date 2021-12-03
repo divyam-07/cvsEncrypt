@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Navbar from "../components/Navbar";
 import styles from "../styles/index.module.css";
+import ArrowDownwardIcon from "@mui/icons-material/ArrowDownward";
 
 export default function Home() {
   return (
@@ -11,7 +12,12 @@ export default function Home() {
         <p className={styles.we}>We are</p>
         <p className={styles.encrypt}>ENCRYPT</p>
         <hr className={styles.hr} />
-        <p className={styles.content}> lorem ipsum </p>
+        <p className={styles.content}>
+          The Tech Society of College of Vocational Studies{" "}
+        </p>
+        <div className={styles.arrow_div}>
+          <ArrowDownwardIcon className={styles.arrow} />
+        </div>
       </div>
     </div>
   );
