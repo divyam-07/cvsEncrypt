@@ -3,6 +3,7 @@ import Image from "next/image";
 import Navbar from "../components/Navbar";
 import styles from "../styles/index.module.css";
 import ArrowDownwardIcon from "@mui/icons-material/ArrowDownward";
+import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 
 export default function Home() {
   return (
@@ -16,7 +17,8 @@ export default function Home() {
           The Tech Society of College of Vocational Studies{" "}
         </p>
         <div className={styles.arrow_div}>
-          <ArrowDownwardIcon className={styles.arrow} />
+          {/* <ArrowDownwardIcon className={styles.arrow} /> */}
+          <KeyboardArrowDownIcon className={styles.arrow} />
         </div>
       </div>
     </div>
