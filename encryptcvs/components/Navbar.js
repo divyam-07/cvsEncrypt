@@ -4,7 +4,7 @@ import EventIcon from '@mui/icons-material/Event';
 import Link from "next/link"
 const Navbar = () => {
     return (
-        <Nav style={{position: "fixed", top: 0, width: "100%"}}>
+        <Nav style={{position: "fixed", top: 0, width: "20%", zIndex:100}}>
             <Logo src="https://s3-us-west-2.amazonaws.com/fuel20-public/photo/a1/b6/PHO-111802/PHO-111802-COMP.jpg" />
             <NavMenu>
                 <Link href="/">
@@ -27,8 +27,9 @@ const Navbar = () => {
 export default Navbar
 
 const Nav = styled.nav`
+width: 100%:
 height: 60px;
-background: black;
+background-color: black;
 display: flex;
 align-items: center;
 padding: 0 10px;

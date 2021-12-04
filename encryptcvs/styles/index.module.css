@@ -17,6 +17,8 @@
  align-items: center;
  text-align: center;
  padding: 24vh; 
+  
+ /* height: 100%; */
 }
 
 .we{
@@ -52,7 +54,7 @@
   height: 70px;
   background-color: #F3138D ;
   border-radius: 50%;
-  margin: 100px 0;
+  margin: 10px 0;
   animation: animateDown infinite 2s;
 }
 
