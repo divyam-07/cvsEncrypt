@@ -4,8 +4,8 @@ import styled from "styled-components";
 import Link from "next/link";
 const Navbar = () => {
   return (
-    <Nav style={{ position: "fixed", top: 0, width: "20%", zIndex: 100 }}>
-      <Logo src="enc-logo.png" />
+    <Nav style={{ position: "fixed", top: 0, width: "20%", zIndex: 1 }}>
+      {/* <Logo src="enc-logo.png" /> */}
       <NavMenu>
         <Link href="/">
           <a>
@@ -55,7 +55,8 @@ height: 60px;
 background-color: transparent;
 display: flex;
 align-items: center;
-padding: 0 100px;
+padding: 0 5%;
+margin-top: 25px;
 `;
 
 const Logo = styled.img`
@@ -74,12 +75,13 @@ const NavMenu = styled.div`
     cursor: pointer;
 
     span {
-      color: rgb(228, 226, 226);
-      padding: 7px 0;
-      font-size: 15px;
+      color: #d8dbd6;
+      padding: 1px 0;
+      font-size: 16px;
       letter-spacing: 3.5px;
       position: relative;
       margin: 0 12px;
+      font-weight: 300;
 
       &:after {
         content: "";
@@ -91,9 +93,13 @@ const NavMenu = styled.div`
         bottom: -6px;
         opacity: 0;
         transform-origin: left center;
-        transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+        transition: all 600ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
         transform: scaleX(0);
       }
+    }
+
+    span:hover {
+      color: white;
     }
 
     &:hover {
