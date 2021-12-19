@@ -3,7 +3,6 @@ import Image from "next/image";
 import Navbar from "../components/Navbar";
 import Members from "../components/Members";
 import styles from "../styles/index.module.css";
-import ArrowDownwardIcon from "@mui/icons-material/ArrowDownward";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 
 export default function Home() {
