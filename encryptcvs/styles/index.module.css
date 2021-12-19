@@ -16,8 +16,7 @@
  justify-content: center;
  align-items: center;
  text-align: center;
- padding: 24vh; 
-  
+ margin: 18vh 2px 20vh 2px;
 }
 
 .we{
@@ -83,7 +82,7 @@
 .main_content{
  display: flex;
  flex-direction: column;
- padding: 26vh 5px;
+ padding: 20vh 5px;
  overflow: none;
  margin: 0 15px;
 }
