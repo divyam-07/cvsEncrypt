@@ -34,7 +34,7 @@ export default function Home() {
       </Head>
 
       <div className={styles.main}>
-        <Particles
+        {/* <Particles
           id="tsparticles"
           init={particlesInit}
           loaded={particlesLoaded}
@@ -76,7 +76,7 @@ export default function Home() {
                 },
               },
               size: {
-                value: 6,
+                value: 10,
                 random: true,
                 anim: {
                   enable: false,
@@ -108,7 +108,7 @@ export default function Home() {
               },
             },
             interactivity: {
-              detect_on: "canvas",
+              detect_on: "window",
               events: {
                 onhover: {
                   enable: true,
@@ -148,7 +148,7 @@ export default function Home() {
             },
             retina_detect: false,
           }}
-        ></Particles>
+        ></Particles> */}
         <Navbar />
         <div className={styles.main_content}>
           <p className={styles.we}>We are</p>
