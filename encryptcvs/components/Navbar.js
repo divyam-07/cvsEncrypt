@@ -20,27 +20,17 @@ const Navbar = () => {
         </Link>
         <Link href="/">
           <a>
-            <span>SOMETHING</span>
+            <span>RECRUITMENT</span>
           </a>
         </Link>
         <Link href="/">
           <a>
-            <span>WILL</span>
+            <span>ALUMNI</span>
           </a>
         </Link>
         <Link href="/">
           <a>
-            <span>COME</span>
-          </a>
-        </Link>
-        <Link href="/">
-          <a>
-            <span>UP</span>
-          </a>
-        </Link>
-        <Link href="/">
-          <a>
-            <span>HERE</span>
+            <span>GALLERY</span>
           </a>
         </Link>
       </div>
