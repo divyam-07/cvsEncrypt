@@ -1,8 +1,8 @@
 .main{
   /* background-color: black; */
-  width: 100vw;
+  width: 99vw;
   height: 100vh;
-  min-height: 100vh;
+  /* min-height: 100vh; */
 }
 
 .main_content p{
@@ -22,6 +22,7 @@
 .we{
  font-size: 60px;
  font-family: 'WC Mano Negra Bta', sans-serif;
+ color: green;  
 }
 
 .enc_box{ 

@@ -4,7 +4,7 @@ height: 60px;
 background-color: rgba(0, 0, 0, .6);
 display: flex;
 align-items: center;
-padding: 3% 0%;
+padding: 1% 0%;
 
 position: fixed;
 top: 0;
@@ -12,27 +12,29 @@ z-index: 99;
 }
 
 .nav_menu{
-   margin-left: 55vw;
+   margin-left: 58%;
   display: flex;
   flex: 1;
   align-items: center;
 }
 
+
 .nav_menu a{
     display: flex;
     align-items: center;
-    padding: 0 12px;
+    padding: 0 0.8em;
     cursor: pointer;
 }
 
 
 .nav_menu a span {
-    color: #aeb0ad;
+    /* color: #aeb0ad; */
+    color: white;
     padding: 1px 0;
-    font-size: 21px;
+    font-size: 1.2em;
     letter-spacing: 3px;
     position: relative;
-    margin: 0 10px;
+    margin: 0 7px;
     font-weight: 400;    
     transition: all .3s ease-in-out;
     font-family: 'Playfair Display', serif;
@@ -49,7 +51,7 @@ z-index: 99;
   left:0;
   top: 100%;
   width: 0;
-  height: 2px;
+  height: 2.5px;
   background-color: #F3138D;
   transition: width .5s ease-in-out;
 }
@@ -57,3 +59,61 @@ z-index: 99;
   width: 100%;
 }
 
+.special_event{
+  --borderWidth: 3px;
+  /* background: #1D1F20; */
+  position: relative;
+  border-radius: var(--borderWidth);
+  margin-right: 8px;
+  margin-left: 7px;
+}
+
+.special_event:after {
+  content: '';
+  position: absolute;
+  top: calc(-1 * var(--borderWidth));
+  left: calc(-1 * var(--borderWidth));
+  height: calc(100% + var(--borderWidth) * 3);
+  width: calc(100% + var(--borderWidth) * 1);
+  background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+  border-radius: calc(2 * var(--borderWidth));
+  z-index: -1;
+  animation: animatedgradient 3s ease alternate infinite;
+  background-size: 300% 300%;
+}
+
+
+@keyframes animatedgradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+@media only screen and (max-width: 1440px) {
+   .nav_menu{
+    margin-left: 48vw;
+  }
+
+  .nav_menu a span{
+    font-size: 1.15em;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  
+  .nav_menu{
+    margin-left: 34vw;
+  }
+
+  .nav_menu a span{
+    font-size: 1em;
+  }
+
+}

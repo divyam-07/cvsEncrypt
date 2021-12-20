@@ -14,12 +14,12 @@ const Navbar = () => {
           </a>
         </Link>
         <Link href="/events">
-          <a>
+          <a className={styles.special_event}>
             <span>EVENTS</span>
           </a>
         </Link>
         <Link href="/">
-          <a>
+          <a className={styles.special_event}>
             <span>RECRUITMENT</span>
           </a>
         </Link>
