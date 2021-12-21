@@ -25,16 +25,15 @@ export default function Home() {
           rel="stylesheet"
           integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
           crossOrigin="anonymous"
-        ></link>
+        ></link>{" "}
         <script
           src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
           integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
           crossOrigin="anonymous"
-        ></script>
+        ></script>{" "}
       </Head>
-
       <div className={styles.main}>
-        {/* <Particles
+        <Particles
           id="tsparticles"
           init={particlesInit}
           loaded={particlesLoaded}
@@ -76,7 +75,7 @@ export default function Home() {
                 },
               },
               size: {
-                value: 10,
+                value: 6,
                 random: true,
                 anim: {
                   enable: false,
@@ -108,7 +107,7 @@ export default function Home() {
               },
             },
             interactivity: {
-              detect_on: "window",
+              detect_on: "canvas",
               events: {
                 onhover: {
                   enable: true,
@@ -148,22 +147,23 @@ export default function Home() {
             },
             retina_detect: false,
           }}
-        ></Particles> */}
+        ></Particles>{" "}
         <Navbar />
         <div className={styles.main_content}>
-          <p className={styles.we}>We are</p>
+          <p className={styles.we}> We are </p>{" "}
           <div className={styles.enc_box}>
-            <p className={styles.encrypt}>ENCRYPT</p>
-          </div>
-          <hr className={styles.hr} />
+            <p className={styles.encrypt}> ENCRYPT </p>{" "}
+          </div>{" "}
+          <hr className={styles.hr} />{" "}
           <p className={styles.content}>
             The Tech Society of College of Vocational Studies{" "}
-          </p>
+          </p>{" "}
           <div className={styles.arrow_div}>
-            {/* <ArrowDownwardIcon className={styles.arrow} /> */}
-            <KeyboardArrowDownIcon className={styles.arrow} />
-          </div>
-        </div>
+            {" "}
+            {/* <ArrowDownwardIcon className={styles.arrow} /> */}{" "}
+            <KeyboardArrowDownIcon className={styles.arrow} />{" "}
+          </div>{" "}
+        </div>{" "}
         <div className="container">
           <div className="row">
             <Members />
@@ -179,8 +179,8 @@ export default function Home() {
             <Members />
             <Members />
           </div>
-        </div>
-      </div>
+        </div>{" "}
+      </div>{" "}
     </>
   );
 }

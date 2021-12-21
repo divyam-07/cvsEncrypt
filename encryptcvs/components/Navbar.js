@@ -23,7 +23,7 @@ const Navbar = () => {
             <span>RECRUITMENT</span>
           </a>
         </Link>
-        <Link href="/">
+        <Link href="/alumni">
           <a>
             <span>ALUMNI</span>
           </a>
