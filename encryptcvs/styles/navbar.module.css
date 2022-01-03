@@ -61,11 +61,15 @@ z-index: 99;
 
 .special_event{
   --borderWidth: 3px;
-  /* background: #1D1F20; */
+  background: #1D1F20;
   position: relative;
   border-radius: var(--borderWidth);
   margin-right: 8px;
   margin-left: 7px;
+}
+
+.special_event > span:after{
+  background-color: transparent !important; 
 }
 
 .special_event:after {
@@ -73,8 +77,8 @@ z-index: 99;
   position: absolute;
   top: calc(-1 * var(--borderWidth));
   left: calc(-1 * var(--borderWidth));
-  height: calc(100% + var(--borderWidth) * 3);
-  width: calc(100% + var(--borderWidth) * 1);
+  height: calc(100% + var(--borderWidth) * 2);
+  width: calc(100% + var(--borderWidth) * 2);
   background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
   border-radius: calc(2 * var(--borderWidth));
   z-index: -1;
