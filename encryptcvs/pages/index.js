@@ -4,6 +4,8 @@ import Navbar from "../components/Navbar";
 import Members from "../components/Members";
 import styles from "../styles/index.module.css";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
+import AboutEncrypt from "../components/AboutEncrypt";
+import Events from "../components/Events";
 import Particles from "react-tsparticles";
 export default function Home() {
   const particlesInit = (main) => {
@@ -147,7 +149,7 @@ export default function Home() {
             retina_detect: true,
           }}
         ></Particles>
-        {/* <Navbar />
+        <Navbar />
         <div className={styles.main_content}>
           <p className={styles.we}> We are </p>
           <div className={styles.enc_box}>
@@ -161,22 +163,10 @@ export default function Home() {
             <KeyboardArrowDownIcon className={styles.arrow} />
           </div>
         </div>
-        <div className="container">
-          <div className="row">
-            <Members />
-            <Members />
-            <Members />
-            <Members />
-            <Members />
-            <Members />
-            <Members />
-            <Members />
-            <Members />
-            <Members />
-            <Members />
-            <Members />
-          </div>
-        </div> */}
+       
+          <AboutEncrypt />
+          <Events />
+
       </div>
     </>
   );

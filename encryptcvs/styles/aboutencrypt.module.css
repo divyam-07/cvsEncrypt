@@ -1,0 +1,16 @@
+.container{
+ margin: 50px 12%;
+}
+
+.content{
+ color: white;
+ font-size: 25px;
+ font-family: 'Playfair Display', serif;
+ line-height: 45px;
+ letter-spacing: 3%;
+}
+
+.e{
+ font-size: 7rem;
+ font-family: 'WC Mano Negra Bta', sans-serif;
+}
