@@ -32,12 +32,21 @@
    width: 80vw;
    height: auto;
    width: auto;
+   padding: 50px;
+   display: flex;
 }
-.imageChild{
-    width:200px;
-    height: 200px;
+.imgchild{
+    width:35%;
+    height: auto;
+    border: 2px solid red;
 }
-.contentChild{
-    width:200px;
-    height: 200px;
+.contentchild{
+    width:52%;
+    height: auto;
+    font-size: 43px;
+    border: 2px solid red;
+}
+.image{
+    width:444px;
+    object-fit:cover;
 }
