@@ -164,7 +164,7 @@ export default function Home() {
           </div>
         </div>
        
-          <AboutEncrypt />
+          {/* <AboutEncrypt /> */}
           <Events />
 
       </div>

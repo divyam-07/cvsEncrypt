@@ -1,3 +1,43 @@
 .container{
  color: white;
 }
+.events{
+    text-align: center;
+    margin: auto;
+    font-size: 124px;
+    height: 163px;
+    width: 399px;
+    border-bottom: 10px solid #FF008C;
+    font-family: Playfair Display;
+    font-style: normal;
+    margin-bottom: 75px;
+}
+.eventpara{
+    font-size: 47px;
+    text-align: center;
+    font-family: Playfair Display;
+}
+.games{
+    text-align: center;
+    margin-left: 50px;
+    font-size: 87px;
+    height: 111px;
+    width: 266px;
+    border-bottom: 7px solid #FF008C;
+    font-family: Playfair Display;
+    font-style: normal;
+    margin-bottom: 75px
+}
+.box{
+   width: 80vw;
+   height: auto;
+   width: auto;
+}
+.imageChild{
+    width:200px;
+    height: 200px;
+}
+.contentChild{
+    width:200px;
+    height: 200px;
+}

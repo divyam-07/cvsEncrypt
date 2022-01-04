@@ -10,7 +10,7 @@ function AboutEncrypt(){
     Our mission is to enlighten the students about the possibilities and opportunities that the technology can offer.
     </p>
 
-   <p className={styles.content}> "WE WANT TO CREATE A HEALTHY AND MOTIVATING TECHVIRONMENT" </p>
+   <p className={styles.content}> &quot;WE WANT TO CREATE A HEALTHY AND MOTIVATING TECHVIRONMENT&quot; </p>
    
    <FontAwesomeIcon icon={faCode}></FontAwesomeIcon>
 
