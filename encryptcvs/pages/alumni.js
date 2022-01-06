@@ -10,13 +10,6 @@ const alumni = () => {
       <div className={styles.text}> Remember The Name </div>
       
       <div className={styles.parent}>
-        <Link href="/2022">
-        <a>
-        <div className={styles.child}>
-          <p className={styles.para}>2022</p>
-        </div>
-        </a>
-        </Link>
         <Link href="/2021">
         <a>
         <div className={styles.child}>

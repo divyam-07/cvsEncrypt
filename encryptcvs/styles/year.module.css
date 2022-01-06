@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 29rem;
+    height: 20rem;
+    margin: 34px;
+}
+
+.card_image{
+    background-image: url('https://assets.sentinelassam.com/h-upload/2020/11/18/174149-msd.webp?w=400&dpr=2.6');
+    height: 17rem;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+
+.title{
+    margin-top: 7rem;
+    font-size: 76px;
+    border-bottom: 10px solid #FF008C;
+    text-align: center;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
