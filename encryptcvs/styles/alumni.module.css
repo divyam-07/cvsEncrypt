@@ -16,17 +16,31 @@
     justify-content: space-around;
     flex-wrap: wrap;
     transform: all 0.2 linear;
-    border: 2px solid yellow;
 }
 .child{
-    height: 300px;
     flex: 1 1 300px;
-    border: 2px solid red;
-    margin: 20px;
+    height: 20rem;
+    margin: 38px;
+    width: 27rem;
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+    border-radius: 20px;
+    transition: all .3s ease-in; 
+    border: 8px solid white;
+    
+}
+.parent :hover{
+    transition: all .3s ease-in; 
+    transform: scale(1.02);
+    opacity: 0.8;
 }
 .para{
     text-align: center;
-    font-size: 100px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    font-size: 98px;
+    margin: auto;
+    padding-top: 101px;
+    font-style: italic;
 }
