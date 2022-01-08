@@ -1,6 +1,7 @@
 import styles from "../styles/aboutencrypt.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; // Import the FontAwesomeIcon component
-import { faCode } from "@fortawesome/free-solid-svg-icons"; // import the icons you need 
+import { faCode, faMobile } from "@fortawesome/free-solid-svg-icons"; // import the icons you need 
+import { faHeart } from "@fortawesome/free-solid-svg-icons"; // import the icons you need 
 
 function AboutEncrypt(){
  return (
@@ -12,7 +13,13 @@ function AboutEncrypt(){
 
    <p className={styles.content}> &quot;WE WANT TO CREATE A HEALTHY AND MOTIVATING TECHVIRONMENT&quot; </p>
    
-   <FontAwesomeIcon icon={faCode}></FontAwesomeIcon>
+   <div className={styles.parent}>
+    <div className={styles.child}><FontAwesomeIcon style={{transform:"scale(5)", margin:"13rem", color:"#FF008C"}} icon={faCode}></FontAwesomeIcon></div>
+    <div className={styles.child}><FontAwesomeIcon style={{transform:"scale(5)", margin:"13rem", color:"#FF008C"}} icon={faHeart}></FontAwesomeIcon></div>
+    <div className={styles.child}><FontAwesomeIcon style={{transform:"scale(5)", margin:"13rem", color:"#FF008C"}} icon={faMobile}></FontAwesomeIcon></div>
+   </div>
+
+   
 
    </div>
  )

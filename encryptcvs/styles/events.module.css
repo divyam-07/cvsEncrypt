@@ -4,49 +4,83 @@
 .events{
     text-align: center;
     margin: auto;
-    font-size: 124px;
-    height: 163px;
-    width: 399px;
+    font-size: 108px;
+    height: 141px;
+    width: 338px;
     border-bottom: 10px solid #FF008C;
     font-family: Playfair Display;
     font-style: normal;
-    margin-bottom: 75px;
+    margin-bottom: 3rem;
 }
 .eventpara{
-    font-size: 47px;
+    font-size: 32px;
     text-align: center;
     font-family: Playfair Display;
 }
 .games{
     text-align: center;
-    margin-left: 50px;
-    font-size: 87px;
-    height: 111px;
-    width: 266px;
+    margin-left: 12rem;
+    font-size: 5rem;
+    height: 106px;
+    width: 299px;
     border-bottom: 7px solid #FF008C;
     font-family: Playfair Display;
     font-style: normal;
-    margin-bottom: 75px
+    margin-bottom: 2.5rem;
+}
+.webinar{
+    text-align: center;
+    margin-left: 12rem;
+    font-size: 5rem;
+    height: 106px;
+    width: 384px;
+    border-bottom: 7px solid #FF008C;
+    font-family: Playfair Display;
+    font-style: normal;
+    margin-bottom: 2.5rem;
+    margin-top: 3rem;
+}
+.codingEvents{
+    text-align: center;
+    margin-left: 12rem;
+    font-size: 5rem;
+    height: 106px;
+    width: 42rem;
+    border-bottom: 7px solid #FF008C;
+    font-family: Playfair Display;
+    font-style: normal;
+    margin-bottom: 2.5rem;
+    margin-top: 3rem;
 }
 .box{
-   width: 80vw;
-   height: auto;
-   width: auto;
-   padding: 50px;
-   display: flex;
+    height: auto;
+    margin-left: 15vh;
+    padding: 40px;
+    display: flex;
+    width: 92%;
 }
 .imgchild{
-    width:35%;
+    width:40%;
     height: auto;
-    border: 2px solid red;
 }
 .contentchild{
-    width:52%;
+    width: 55%;
     height: auto;
-    font-size: 43px;
-    border: 2px solid red;
+    font-size: 30px;
+    padding: 0rem 0px 0rem 17rem;
+    margin: auto;
+}
+.contentchild ul{
+    list-style-type: none;
 }
 .image{
     width:444px;
     object-fit:cover;
+}
+
+.muchMore{
+    text-align: center;
+    font-size: 3rem;
+    font-family: Playfair Display;
+    color: #FF1B98;
 }
