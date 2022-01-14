@@ -1,8 +1,9 @@
-import styles from "../styles/year.module.css"
+import styles from "../styles/departments.module.css"
 
-function Members() {
+const Departments = () => {
     return (
-        <section className={styles.container}>
+        <>
+            <section className={styles.container}>
             <div className={styles.card}>
                 <div className={styles.card_image}>
                     <h2>Title</h2>
@@ -58,7 +59,8 @@ function Members() {
                 </div>
             </div>
         </section>
+        </>
     )
 }
 
-export default Members
+export default Departments

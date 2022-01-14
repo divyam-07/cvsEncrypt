@@ -14,3 +14,22 @@
  font-size: 7rem;
  font-family: 'WC Mano Negra Bta', sans-serif;
 }
+
+.parent{
+    width: 74vw;
+    height: auto;
+    margin: auto;
+    margin-top: -8rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    -webkit-transform: all 0.2 linear;
+    transform: all 0.2 linear;
+}
+
+.child{
+    flex: 1 1 300px;
+    height: 20rem;
+    margin: 0px;
+    width: 27rem;
+}

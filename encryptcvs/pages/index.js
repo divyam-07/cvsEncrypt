@@ -7,6 +7,7 @@ import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import AboutEncrypt from "../components/AboutEncrypt";
 import Events from "../components/Events";
 import Particles from "react-tsparticles";
+import Departments from "../components/Departments";
 export default function Home() {
   const particlesInit = (main) => {
     console.log(main);
@@ -164,8 +165,10 @@ export default function Home() {
           </div>
         </div>
        
-          {/* <AboutEncrypt /> */}
+          <AboutEncrypt />
           <Events />
+          <p className={styles.departments}>DEPARTMENTS</p>
+          <Departments/>
 
       </div>
     </>
