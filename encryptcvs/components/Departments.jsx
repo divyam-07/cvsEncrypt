@@ -1,63 +1,17 @@
 import styles from "../styles/departments.module.css"
+import Card from "./Card"
 
 const Departments = () => {
     return (
         <>
-            <section className={styles.container}>
-            <div className={styles.card}>
-                <div className={styles.card_image}>
-                    <h2>Title</h2>
-                    <p>Designation</p>
-                </div>
-            </div>
-            <div className={styles.card}>
-                <div className={styles.card_image}>
-                    <h2>Title</h2>
-                    <p>Designation</p>
-                </div>
-            </div>
-            <div className={styles.card}>
-                <div className={styles.card_image}>
-                    <h2>Title</h2>
-                    <p>Designation</p>
-                </div>
-            </div>
-            <div className={styles.card}>
-                <div className={styles.card_image}>
-                    <h2>Title</h2>
-                    <p>Designation</p>
-                </div>
-            </div>
-            <div className={styles.card}>
-                <div className={styles.card_image}>
-                    <h2>Title</h2>
-                    <p>Designation</p>
-                </div>
-            </div>
-            <div className={styles.card}>
-                <div className={styles.card_image}>
-                    <h2>Title</h2>
-                    <p>Designation</p>
-                </div>
-            </div>
-            <div className={styles.card}>
-                <div className={styles.card_image}>
-                    <h2>Title</h2>
-                    <p>Designation</p>
-                </div>
-            </div>
-            <div className={styles.card}>
-                <div className={styles.card_image}>
-                    <h2>Title</h2>
-                    <p>Designation</p>
-                </div>
-            </div>
-            <div className={styles.card}>
-                <div className={styles.card_image}>
-                    <h2>Title</h2>
-                    <p>Designation</p>
-                </div>
-            </div>
+        <section className={styles.container}>
+            <Card dept="Human Resource"/>
+            <Card dept="Research And Development"/>
+            <Card dept="Gaming and Technology"/>
+            <Card dept="Design and Technology"/>
+            <Card dept="Marketing" />
+            <Card dept="Social Media" />
+            <Card dept="Content" />
         </section>
         </>
     )

@@ -4,13 +4,10 @@
 .events{
     text-align: center;
     margin: auto;
-    font-size: 108px;
-    height: 141px;
-    width: 338px;
-    border-bottom: 10px solid #FF008C;
+    font-size: 6em;
+    width: 250px;
+    border-bottom: 3px solid #FF008C;
     font-family: Playfair Display;
-    font-style: normal;
-    margin-bottom: 3rem;
 }
 .eventpara{
     font-size: 32px;

@@ -2,6 +2,18 @@
  margin: 50px 12%;
 }
 
+.heading{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 40px;
+    height: 60px;
+    width: 200px;
+    border-bottom: 3px solid #FF008C;
+    font-family: Playfair Display;
+}
+
 .content{
  color: white;
  font-size: 25px;
@@ -30,6 +42,35 @@
 .child{
     flex: 1 1 300px;
     height: 20rem;
-    margin: 0px;
+    margin: 100px auto;
     width: 27rem;
+    transform: scale(0.3);
+    color: #FF008C;
+}
+
+
+@media only screen and (max-width: 480px){
+
+    .heading{
+        font-size: 30px;
+        width: 150px;
+    }
+
+    .e{
+        font-size: 2rem;
+    }
+
+    .content{
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    .parent{
+    margin: 10px auto;
+    }
+
+    .child{
+    transform: scale(0.2);
+    margin: -100px;
+    }
 }
