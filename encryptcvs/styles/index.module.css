@@ -1,20 +1,18 @@
-.main{
-  /* background-color: black; */
+/* .main{
   width: 99vw;
   height: 100vh;
-  /* min-height: 100vh; */
-}
+} */
+
+
 
 .departments{
   text-align: center;
-    margin: auto;
-    font-size: 6rem;
-    height: 141px;
-    width: 43rem;
-    border-bottom: 10px solid #FF008C;
+    font-size: 2em;
+    width: fit-content;
+    border-bottom: 3px solid #FF008C;
     font-family: Playfair Display;
-    font-style: normal;
-    margin-top: 10rem;
+    margin: 0 auto;
+    margin-top: 7em;
 }
 
 .main_content p{

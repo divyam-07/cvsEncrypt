@@ -16,7 +16,7 @@ export default function Home() {
   };
 
   const particlesLoaded = (container) => {
-    console.log(container);
+    // console.log(container);  
   };
 
   return (
@@ -166,7 +166,7 @@ export default function Home() {
         </div>
        
           <AboutEncrypt />
-          <Events />
+          {/* <Events /> */}
           <p className={styles.departments}>DEPARTMENTS</p>
           <Departments/>
 
